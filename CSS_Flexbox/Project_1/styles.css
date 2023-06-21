@@ -1,0 +1,66 @@
+/*
+ * [IMPORTANT CSS PROPERTIES]
+ */
+ 
+ /* box-sizing : The box-sizing CSS property sets how the total width and height of an element is calculated.*/
+
+ /* CSS Resets */
+* {
+    margin              : 0;
+    padding             : 0;
+    box-sizing          : border-box;
+}
+
+:root{
+    font-size: 12px;
+}
+/* Element Selectors */
+main {
+    display             : flex;
+}
+
+/* Class Selectors */
+
+.blog_posts__post {
+    margin              : 2rem ;
+    border-color        : black;
+    border-style        : solid;
+    border-width        : 1px;
+    overflow            : hidden;
+
+    border-color        : black;
+    border-style        : dashed;
+    border-width        : 1px;
+}
+
+.blog_posts__card_image {
+    width               : 95%;
+    height              : 50%; /* height of container */
+    object-fit          : cover;
+    padding             : 0.5rem;
+    margin              : 1rem;
+    border-color        : black;
+    border-style        : dashed;
+    border-width        : 1px;
+    box-sizing          : border-box;
+
+}
+
+.blog_posts__date {
+    background-color    : rgb(156, 0, 156);
+    padding             : 10px;
+    color               : white;
+    border-radius       : 0.5rem;
+    display             : inline-block;
+    margin              : 1rem;
+
+}
+
+.blog_posts__title {
+    font-size           :3rem;
+    margin              : 1rem;
+}
+
+.blog_posts__text {
+    margin              : 1rem;
+}
