@@ -42,3 +42,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.CSS_H1_Page_Title {
+	background-color: black;
+	color: white;
+	font-size: 20;
+	font-weight: bold;
+	padding: 1rem;
+}

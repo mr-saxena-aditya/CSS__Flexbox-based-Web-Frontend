@@ -42,3 +42,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.CSS_H1_Page_Title {
+	background-color: black;
+	color: white;
+	font-size: 20;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.CSS_Flexbox_3_items {
+	display: flex;
+	justify-content: space-around;
+	background-color: palevioletred;
+	padding: 1rem;
+}
+
+.CSS_Div_Profile_Card{
+	width:fit-content;
+	border-style: solid;
+	border-width: 0.1px;
+	border-radius: 2em;
+	display: flex;
+	max-width: 500px;
+	justify-content: space-around;
+	background-color: pink;
+}
+
+.CSS_Profile_Card__Image{
+	width					: 200px;
+	height					: auto;
+	padding					: 1rem;
+}
+
+.CSS_Profile_Card_Details__Name {
+	padding					: 1rem;
+	font-size				: x-large;
+	font-weight				: bold ;
+}
+
+.CSS_Profile_Card_Details__Position {
+	padding					: 1rem;
+	font-weight				: bold;
+}
+
+.CSS_Profile_Card_Details__About {
+	padding					: 1rem;
+}
