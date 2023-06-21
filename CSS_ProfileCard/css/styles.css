@@ -66,6 +66,9 @@ table {
 	display: flex;
 	max-width: 500px;
 	justify-content: space-around;
+	/*align-items: baseline;*/
+	column-gap: 1.5rem;
+	align-items: stretch;
 	background-color: pink;
 }
 
