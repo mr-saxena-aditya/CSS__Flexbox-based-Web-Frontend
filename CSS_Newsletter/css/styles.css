@@ -50,3 +50,35 @@ table {
 	font-weight: bold;
 	padding: 1rem;
 }
+
+form {
+	display: flex;
+	width: 40%;
+	border: 0.1px solid black;
+	padding: 10px;
+	justify-content: center;
+}
+
+section{
+	display: flex;
+  	justify-content: center; /* Horizontally aligns the content */
+  	align-items: center; /* Vertically aligns the content */
+  	height: 100vh; /* Adjust the height as needed */
+}
+
+input {
+	border: none;
+	background: none;
+	outline: none;
+	padding: 1rem 2rem;
+}
+
+input[type="email"]{
+	background-color: thistle;
+	flex-grow: 1;
+}
+
+input[type="submit"]{
+	background-color: coral;
+	flex-grow: 1;
+}
