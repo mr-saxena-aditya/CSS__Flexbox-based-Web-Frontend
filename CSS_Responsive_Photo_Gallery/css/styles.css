@@ -50,3 +50,17 @@ table {
 	font-weight: bold;
 	padding: 1rem;
 }
+
+.CSS_Responsive_PhotoGallery{
+	display: flex;
+	padding: 1rem;
+}
+
+.CSS_Figure{
+	width: 200px;
+	height: auto;
+	border-color: black;
+	border-style: dotted;
+	border-width: 0.1px;
+	padding: 0.5rem;
+}
