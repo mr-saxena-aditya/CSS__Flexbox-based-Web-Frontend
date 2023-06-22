@@ -91,6 +91,7 @@ h2 {
 
 .CSS_SignIn_Form_Text {
 	width: 360px;
+	height: 30px;
 }
 
 .CSS_SignIn_OAuth{
@@ -135,4 +136,5 @@ h2 {
 
 input[type="submit"] {
 	width: 360px; /* Adjust the width value as per your requirement */
+	height: 30px;
 }
