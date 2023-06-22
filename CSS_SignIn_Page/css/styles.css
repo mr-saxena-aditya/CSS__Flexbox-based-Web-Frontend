@@ -65,7 +65,7 @@ h2 {
 }
 
 .CSS_SignIn_Section{
-	background-color: lightgrey;
+	background-color: whitesmoke;
 	padding: 4 rem;
 	border-style: solid;
 	border-width: 0.1px;
@@ -82,6 +82,7 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 1rem;
 }
 
 .CSS_SignIn_About_Text{
@@ -89,11 +90,48 @@ h2 {
 }
 
 .CSS_SignIn_Form_Text {
-	width: 200px;
+	width: 360px;
 }
 
 .CSS_SignIn_OAuth{
 	text-decoration: none;
 	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	width: 340px;
 	
+}
+
+#facebook{
+	background-color: blue;
+	width: 100px;
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	align-content: center;
+	border-radius: 15px;
+}
+
+#google {
+	background-color: red;
+	width: 100px;
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	align-content: center;
+	border-radius: 15px;
+}
+
+#microsoft {
+	background-color: darkgreen;
+	width: 100px;
+	padding: 15px;
+	color: white;
+	font-weight: bold;
+	align-content: center;
+	border-radius: 15px;
+}
+
+input{
+	width: 150px;
 }
