@@ -132,6 +132,7 @@ h2 {
 	border-radius: 15px;
 }
 
-input{
-	width: 150px;
+
+input[type="submit"] {
+	width: 360px; /* Adjust the width value as per your requirement */
 }
