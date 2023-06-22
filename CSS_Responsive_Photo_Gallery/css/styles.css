@@ -51,16 +51,34 @@ table {
 	padding: 1rem;
 }
 
+
 .CSS_Responsive_PhotoGallery{
 	display: flex;
 	padding: 1rem;
+	width: 100%;
+	flex-wrap: wrap;
+	border: 0.1px;
+	border-color: black;
+	border-style: solid;
+	justify-content: center;
 }
 
 .CSS_Figure{
-	width: 200px;
+	width: 300px;
 	height: auto;
 	border-color: black;
 	border-style: dotted;
 	border-width: 0.1px;
 	padding: 0.5rem;
+	margin: 5px;
+}
+
+figcaption {
+	padding: 10px;
+	background-color:antiquewhite;
+	border: 0.1px;
+	border-style: dotted;
+	border-color: black;
+	margin-right: 5px;
+	margin-left: 5px;
 }
